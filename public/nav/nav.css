@@ -1,0 +1,46 @@
+@import url("/public/assets/css/global.css");
+
+.nav{
+    display:flex;
+    width:100%;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.nav-logo{
+    width: 80px;
+    height: 80px;
+}
+
+.logo{
+    width:100%;
+}
+
+.nav-links{
+    width:60%;
+}
+
+.links{
+    display:flex;
+    justify-content: space-between;
+    
+}
+
+.links li{
+    list-style: none;
+    width: fit-content;
+}
+
+.links li a{
+    font-family: Gupter;
+    text-decoration: none;
+    color: white;
+    transition: 0.4s;
+}
+
+.links li a:hover{
+    border-bottom: 1px white solid;
+    color: var(--verde-clarinho);
+    
+}

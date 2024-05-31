@@ -1,0 +1,12 @@
+@import url("/public/assets/css/global.css");
+
+.container{
+    width: 100vw;
+    height: 100vh;
+}
+
+.nav{
+    position:fixed;
+    background-color: var(--verde-agua);
+    border-radius: 0 0 20px 20px;
+}

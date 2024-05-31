@@ -1,0 +1,11 @@
+@import url("fonts.css");
+
+:root{
+    --verde-agua: #188A8D;
+    --verde-clarinho: #60DD8E;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
