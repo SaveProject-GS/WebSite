@@ -1,8 +1,14 @@
 @import url("/public/assets/css/global.css");
+@import url("/public/assets/css/nav.css");
+@import url("/public/assets/css/tecnologia.css");
+@import url("/public/assets/css/objetivo.css");
+@import url("/public/assets/css/impactos.css");
+@import url("/public/assets/css/beneficios.css");
 
-#home{
-    margin-top: 110px;
+section{
+    border: 1px solid var(--azul-escuro);
 }
+
 .container{
     width: 100vw;
     height: 100vh;
@@ -34,16 +40,16 @@
     color: var(--azul-escuro);
 }
 
-.esquerda h1{
-    font-size: 170px;
-    font-weight: 100;
-}
-
 .organiza{
     display: flex;
     flex-direction: column;
     align-items: center;
     font-size: 30px;
+}
+
+.save h1{
+    font-size: 170px;
+    font-weight: 100;
 }
 
 .VE{
@@ -76,3 +82,4 @@
     max-width: 70%;
     font-size: large;
 }
+

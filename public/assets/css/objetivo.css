@@ -1,0 +1,23 @@
+.linha{
+    width:110%;
+    height: 1.5px;
+    background-color: var(--azul-escuro);
+}
+
+.tema{
+    letter-spacing: 2px;
+    font-weight: 100;
+}
+
+.obj{
+    row-gap: 20px;
+}
+
+.texto-obj{
+    font-size: large;
+}
+
+.terra{
+    width: 80%;
+    height:100%;
+}
