@@ -4,6 +4,8 @@
 @import url("/public/assets/css/objetivo.css");
 @import url("/public/assets/css/impactos.css");
 @import url("/public/assets/css/beneficios.css");
+@import url("/public/assets/css/acrescimos.css");
+@import url("/public/assets/css/footer.css");
 
 section{
     border: 1px solid var(--azul-escuro);
