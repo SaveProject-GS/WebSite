@@ -13,3 +13,23 @@ function nextImage(){
 
     document.getElementById(`radio${count}`).checked = true;
 }
+
+let menuMobile = document.querySelector(".menu-mobile")
+
+function mobileMenu(){
+
+    if (menuMobile.classList.contains("invisivel")){
+        menuMobile.classList.remove("invisivel");
+        menuMobile.classList.add("visivel");
+    }
+     
+    else{
+        menuMobile.classList.add("invisivel");
+        menuMobile.classList.remove("visivel");
+    }
+}
+
+if (window.innerWidth < 750){
+    menuMobile.classList.add("invisivel");
+    menuMobile.classList.remove("visivel");
+}
