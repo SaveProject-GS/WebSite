@@ -14,6 +14,11 @@
     align-items: flex-end;
     color: var(--azul-escuro);
     font-family: Gupter;
+
+    @media screen and (max-width: 750px){
+        align-items: center;
+        height: 20%;
+    }
 }
 
 .baixo{
@@ -23,6 +28,11 @@
     justify-content: space-between;
     align-items: flex-end;
     gap: 40px;
+
+    @media screen and (max-width: 750px){
+        flex-direction: column;
+        height: 50%;
+    }
 }
 
 .card{
@@ -33,6 +43,18 @@
     flex-direction: column;
     align-items: center;
     row-gap: 50px;
+
+    @media screen and (max-width: 750px){
+        width: 90%;
+        height: fit-content;
+        border-radius: 20px;
+        font-size: smaller;
+        padding: 20px;
+        margin-top: 20px;
+        flex-direction: row;
+        gap: 20px;
+        
+    }
 }
 
 .verde-musgo{
@@ -56,11 +78,25 @@
     display:flex;
     justify-content: center;
     align-items: center;
+
+    @media screen and (max-width: 750px){
+        margin-top: 0;
+        width: 40px;
+        height: 40px;
+    }
 }
 
 .texto-card{
     width:75%;
     color:white;
     font-family: Gupter;
-    font-size: larger;
+    font-size: 30px;
+
+    @media screen and (max-width: 750px){
+        font-size: 20px;
+    }
+}
+
+.icone{
+    width: 60%;
 }

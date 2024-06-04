@@ -33,13 +33,21 @@ section{
 }
 
 .esquerda{
-    width:50%;
     font-family: Gupter;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
     justify-content: center;
     color: var(--azul-escuro);
+
+    /*
+        width: 50%;
+        align-items: flex-start;
+    */
+}
+
+.esquerda-respHome{
+    width: 50%;
+    align-items: flex-start;
 }
 
 .organiza{
@@ -82,14 +90,17 @@ section{
 }
 
 .direita{
-    font-family: Gupter;
-    width:50%;  
+    font-family: Gupter; 
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: right;
     align-items: flex-end;
     row-gap: 20px;
+}
+
+.direita-respHome{
+    width:50%;
 }
 
 .direita h1{

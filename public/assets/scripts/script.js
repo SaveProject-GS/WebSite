@@ -1,3 +1,18 @@
+let idade = prompt("Digite sua idade: ")
+
+if (idade >= 12){
+    BemVindo()
+}
+
+else{
+    window.location.replace("https://google.com")
+}
+
+function BemVindo(){
+    alert()
+    alert("Bem vindo ao site da SAVE!")
+}
+
 let count = 1;
 document.getElementById("radio1").checked = true;
 

@@ -5,6 +5,24 @@
     justify-content: space-between;
     align-items: center;
     gap: 40px;
+
+    @media screen and (max-width: 750px){
+        height: 30%;
+    }
+}
+
+.cima2{
+    width:100%;
+    height: 30%;
+    display:flex;
+    justify-content: center;
+    align-items: flex-end;
+    color: var(--azul-escuro);
+    font-family: Gupter;
+
+    @media screen and (max-width: 750px) {
+       margin-top: 80px; 
+    }
 }
 
 .carousel{
@@ -12,12 +30,18 @@
     height: 400px;
     margin: 0 auto;
     overflow:hidden;
+
+    @media screen and (max-width: 750px){
+        width:300px;
+        height: 150px;
+    }
 }
 
 .slides{
     display:flex;
     width: 400%;
     height:400px;
+    z-index: 0;
 }
 
 .slides input{
@@ -32,6 +56,10 @@
 
 .slide img{
     width: 800px;
+
+    @media screen and (max-width: 750px){
+        width:300px;
+    }
 }
 
 .manual-navigation{
@@ -41,6 +69,10 @@
     display: flex;
     justify-content: center;
     gap: 10px;
+
+    @media screen and (max-width: 750px){
+        display: none;
+    }
 }
 
 .manual-btn{
@@ -73,6 +105,10 @@
     border-radius: 10px;
     cursor: pointer;
     transition: 1s;
+
+    @media screen and (max-width: 750px){
+        display: none;
+    }
 }
 
 .navigation-auto{
